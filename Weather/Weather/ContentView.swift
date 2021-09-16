@@ -21,7 +21,7 @@ struct ContentView: View {
             
             TextField("Enter City", text: self.$weatherVM.cityName){
                 self.weatherVM.search()
-                }.font(.custom("Arial", size: 50))
+                }.font(.custom("Arial", size: 55))
                 .padding()
             
             Text(self.weatherVM.temprature)
