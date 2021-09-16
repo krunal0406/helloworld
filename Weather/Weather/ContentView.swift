@@ -25,7 +25,7 @@ struct ContentView: View {
                 .padding()
             
             Text(self.weatherVM.temprature)
-                .font(.custom("Arial", size: 110))
+                .font(.custom("Arial", size: 100))
                 .foregroundColor(.white)
                 .offset(y:100)
                 .padding()
